@@ -7,10 +7,10 @@ Automated pipeline to detect drusens (AMD clinical sign) from fundus retinal ima
 
 | AMD progression  | Drusen description |
 | ------------- | ------------- |
-| Normal ageing changes  | Only small drusen < 63μm  |
-| Early AMD  | Medium drusen > 63 µm  |
-| Intermediate AMD  | Large drusen >125 µm  |
-| Late AMD  | Atrophic or neovascular  |
+|Normal ageing changes  | Only small drusen < 63μm|
+|Early AMD  | Medium drusen > 63 µm and < 125 µm|
+|Intermediate AMD  | Large drusen > 125 µm|
+|Late AMD  | Atrophic or neovascular|
 
 
 Two different but complementary approaches are proposed: classification and segmentation. Both have been trained and tested on Alienor (http://www.alienor-study.com/), a proprietary dataset of 1200 images (2240x1488). The trained classification model yielded better results on this particular dataset than other similar project such as DeepSeeNet: https://github.com/ncbi-nlp/DeepSeeNet   
