@@ -13,7 +13,7 @@ Automated pipeline to detect drusens (AMD clinical sign) from fundus retinal ima
 |Late AMD  | Atrophic or neovascular|
 
 
-Two different but complementary approaches are proposed: classification and segmentation. Both have been trained and tested on Alienor (http://www.alienor-study.com/), a proprietary dataset of 1200 images (2240x1488). The trained classification model yielded better results on this particular dataset than other similar project such as DeepSeeNet: https://github.com/ncbi-nlp/DeepSeeNet   
+Two different but complementary approaches are proposed: classification and segmentation. Both have been trained and tested on Alienor (http://www.alienor-study.com/), a proprietary dataset of 1200 images (2240x1488). The trained classification model yielded simllar results on this particular dataset as other similar state-of-the-art project such as DeepSeeNet: https://github.com/ncbi-nlp/DeepSeeNet   
 
 ### Classification. 
 This is the main part of this project. Two CNNs models: EfficientNet(b2) and Resnet18 were trained and then combined into a single Ensemble model that was further optimized. Others projects were used, in particular for augmentation purposes: https://github.com/automl/trivialaugment, https://github.com/albumentations-team/albumentations, https://github.com/adgaudio/ietk-ret
